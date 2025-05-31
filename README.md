@@ -36,13 +36,15 @@ This project explores customer behavior data for an e-commerce platform using SQ
 
 The following key questions were answered using SQL:
 
-1. **Which membership type generates the highest revenue?**
-2. **What is the average spending by gender?**
-3. **Which cities have the most active or high-spending customers?**
-4. **What age group uses discounts the most?**
-5. **How does customer satisfaction vary by membership type?**
-6. **What is the total amount spent per city?**
-7. **Is there a relation between quantity purchased and satisfaction rating?**
+| # | Question | Insight / Summary |
+|---|----------|-------------------|
+| 1 |  Which membership type generates the highest revenue? | **Gold** members generated the highest revenue, indicating they are the most profitable customer segment. |
+| 2 |  What is the average spending by gender? | **Male** customers spend slightly more on average compared to **female** customers. |
+| 3 |  Which cities have the most active customers? | **New York** and **Los Angeles** recorded the highest customer activity, making them key markets. |
+| 4 |  What age group uses discounts the most? | The **18–24** age group used discounts most frequently, showing price sensitivity among younger customers. |
+| 5 |  How does customer satisfaction vary by membership type? | **Gold** members report higher satisfaction scores on average compared to **Silver** and **Bronze** members. |
+| 6 |  What is the total amount spent per city? | **New York** leads in total sales amount, followed by **Chicago** and **San Francisco**. |
+| 7 |  Is there a relation between number of items and satisfaction? | There is a weak positive correlation, suggesting that customers purchasing more items tend to report slightly higher satisfaction. |
 
 ---
 
@@ -50,8 +52,8 @@ The following key questions were answered using SQL:
 
 1. Clone or download the repository.
 2. Open **MySQL Workbench**.
-3. Import 'customer_data.csv' into a new database table (e.g., 'customers').
-4. Open 'customer_behavior_analysis.sql'.
+3. Import '[customer_data](./customer_data)' into a new database table (e.g., 'customers').
+4. Open '[Customer_Behavior_Analysis-SQL](./customer_behavior_analysis.sql)'.
 5. Run each query to explore and analyze the dataset.
 6. Export results to Excel or visualize in any BI tool.
 
